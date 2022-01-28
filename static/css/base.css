@@ -31,18 +31,26 @@ body {
     width: fit-content;
 }
 
+.statement {
+    background-color: white;
+    text-align: center;
+}
+
 .subscribe-now-button {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     min-width: 260px;
 }
 
 .subscribe-now-button:hover,
 .subscribe-now-button:active,
-.subscribe-now-button:focus,
+.subscribe-now-button:focus {
+    background: black;
+    color: white !important;
+}
 
 .text-black {
-    color: #000 !important;
+    color: black;
 }
 
 
