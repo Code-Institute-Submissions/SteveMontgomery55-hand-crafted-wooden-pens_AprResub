@@ -70,6 +70,10 @@ body {
     color: white;
 }
 
+.remove-item {
+    cursor: pointer;
+}
+
 
 /* -------------------------------- Media Queries */
 
