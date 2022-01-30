@@ -1,47 +1,49 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pens
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Twist Pen</a>
-                <a href="" class="dropdown-item ">Rollerball</a>
-                <a href="" class="dropdown-item ">Fountain Pen</a>
-                <a href="" class="dropdown-item ">Twist Pen with Touch</a>
+                <a href="{% url 'products' %}?category=twist_pen" class="dropdown-item">Twist Pen</a>
+                <a href="{% url 'products' %}?category=rollerball" class="dropdown-item ">Rollerball</a>
+                <a href="{% url 'products' %}?category=fountain_pen" class="dropdown-item ">Fountain Pen</a>
+                <a href="{% url 'products' %}?category=twist_pen_with_touch" class="dropdown-item ">Twist Pen with Touch</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pencils
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+                <a href="{% url 'products' %}?category=click_pencil" class="dropdown-item">Click Pencil</a>
+            </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Gift Sets
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Twist Pen and Pencil</a>
-                <a href="" class="dropdown-item">Twist Pen and Letter Opener</a>
+                <a href="{% url 'products' %}?category=twist_pen_and_pencil" class="dropdown-item">Twist Pen and Pencil</a>
+                <a href="{% url 'products' %}?category=twist_pen_and_letter_opener" class="dropdown-item">Twist Pen and Letter Opener</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clips
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Gold</a>
-                <a href="" class="dropdown-item ">Silver</a>
-                <a href="" class="dropdown-item ">Gun Metal</a>
-                <a href="" class="dropdown-item ">Black Stripe</a>
+                <a href="{% url 'products' %}?category=gold_clip" class="dropdown-item">Gold</a>
+                <a href="{% url 'products' %}?category=silver_clip" class="dropdown-item ">Silver</a>
+                <a href="{% url 'products' %}?category=black_stripe_clip" class="dropdown-item ">Black Stripe</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Woods
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
