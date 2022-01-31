@@ -1,108 +1,149 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Ms Devine Lake** #
 
-Welcome SteveMontgomery55,
+>## **Project Overview** ##
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+>## **User Experience** ##
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## **User Stories** ##
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **First Time Visitor Goals** ###
 
-A blue button should appear to click: _Make Public_,
+1. 
+2. 
+3. 
 
-Another blue button should appear to click: _Open Browser_.
+### **Returning Visitor Goals** ###
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. 
+2. 
+3. 
 
-To log into the Heroku toolbelt CLI:
+### **Frequent Visitor Goals** ###
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1. 
+2. 
+3. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+>## **Features** ##
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+***Home Page***\
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+***Gallery Page***\
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+***Biography Page***\
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+***Contact Page***\
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### **Furture Features** ###
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+***Home Page***\
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+***Gallery Page***\
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+***Biography Page***\
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+***Contact Page***
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The site can be added to easily with, \
+-A 
+-A 
+-A 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+>## **Technologies Used** ##
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+>## **Testing** ##
 
-## FAQ about the uptime script
+## **First Time Visitor Goals** ##
 
-**Why have you added this script?**
+1. As a First Time Visitor, I want to see who this performer is and what they do.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
++ On first loading the site, the user is greeted with a ‘Welcome’ and an image of Ms Devine Lake. She is surrounded\
+by reviews that not only rate her as a performer, but also show what she can do for prospective employers.
 
-**How will this affect me?**
+2. As a First Time Visitor, I want to easily find information on the performer.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
++ A first time user of the site has the option of the standard dropdown menu to easily navigate the various pages.\
+The more obscure navigation links bring more of a performance to the site and hopefully a more memorable experience\
+once the link between the words and their relevant pages is realised.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+3. As a First Time Visitor, I want to find other ways to view the performer.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
++ As well as seeing the images of previous performances by navigating to the gallery page, links to social media sites\
+can be found at the at the bottom of each page to open up new pages of information on Ms Devine Lake.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## **Returning Visitor Goals** ##
 
-**Can I opt out?**
+1. As a Returning Visitor, I want to see new performance images.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
++ To keep the site fresh, the gallery page is easily updated with any new image to keep visitors coming back.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+2. As a Returning Visitor, I want to learn more about the performer.
 
-**Anything more?**
++ A first visit will be due to interest in Ms Devine Lake. However, the user is also able to access information on the performer behind the character, which is easily found via the various navigation links to the Biography and social media links at the bottom of each page.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+3. As a Returning Visitor, I want to be able to make contact to discuss bookings.
 
----
++ By now, the user will hopefully know the contact page can be found by clicking Thirst or alternatively by using the dropdown menu. This page has the contact form which will not send until it’s filled in correctly. There are also the links at the bottom of the page to make contact in other ways.
 
-Happy coding!
+
+## **Frequent Visitor Goals** ##
+
+1. As a Frequent Visitor, I want to read updated reviews.
+
++ The welcome page is easily updated with reviews as and when they are available.
+
+2. As a Frequent Visitor, I want to see what the performer is doing now and what the next project might be.
+
++ The biography page is easily added to, so a user can find any new projects that the performer may be working on.
+
+3. As a Frequent Visitor, I want to see if any new services are offered.
+
++ The contact page is easily updated to include new services offered with the contact form accessible to take enquires further.
+
+
+
+
+## **Further Testing** ##
+
+
+
+ 
+>## **Deployment** ##
+
+Site is deployed by GitHub
+
+In GitHub, find the GitHub Repository\
+Click on the Settings button.\
+Scroll down to GitHub Pages.\
+CLick on Source, click on None and select Master Branch.\
+The page will automatically refresh.\
+Scroll back down to GitHub Pages to find the published site link.
+
+<https://stevemontgomery55.github.io/Ms-Devine-Lake-Milestone/index.html>
+
+>## **Credits** ###
+
+### **Content** ###
+
+
+
+### **Media** ###
+
+The background image is taken from pexels by Tara Winstead.\
+All other photos are my own of products made by a family member.
+
+### **Acknowledgements** ###
+
+
