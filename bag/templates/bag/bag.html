@@ -43,7 +43,6 @@
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                                    <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0">£{{ item.product.price }}</p>
@@ -69,9 +68,7 @@
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
                                 <div id="smart-button-container">
-                                    <div style="text-align: center"><label for="description"> </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-                                      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-                                    <div style="text-align: center"><label for="amount"> </label><input name="amountInput" type="number" id="amount" value="" ><span> GBP</span></div>
+                                    <div style="text-align: center"><strong>Price</strong><label for="amount"> </label><input name="amountInput" type="number" id="amount" value="" ><span> GBP</span></div>
                                       <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
                                     <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
                                       <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
