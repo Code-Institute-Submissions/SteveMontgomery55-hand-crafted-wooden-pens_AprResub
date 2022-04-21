@@ -6,7 +6,7 @@ body {
     background: url('/images/homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: black;
     font-family: 'Roboto';
 }
 
@@ -95,7 +95,7 @@ body {
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    color: #fff; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -108,7 +108,7 @@ body {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
+    color: #fff;
 }
 
 .allauth-form-inner-content button,
@@ -142,7 +142,7 @@ body {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #222; /* text-info */
 }
 
 /* fixed top navbar only on medium and up */
@@ -169,4 +169,12 @@ body {
     body {
         height: calc(100vh - 116px);
     }
+}
+
+.sign-up-form {
+    margin-top: 170px;
+}
+
+label {
+    color: #fff;
 }
